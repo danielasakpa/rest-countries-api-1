@@ -48,7 +48,7 @@ function App() {
     <div>
       <AppNavbar value={value} setValue={setValue}/>
     <Routes> 
-      <Route exact path="/" element={<Countrys fetchCountryPage={fetchCountryPage} />} />
+      <Route exact path="/rest-countries-api-1" element={<Countrys fetchCountryPage={fetchCountryPage} />} />
       <Route path={`/${countryName.cca3}`} exact 
         element={<CountryPage fetchCountryByBorder={fetchCountryByBorder} countryName={countryName} />}
         />

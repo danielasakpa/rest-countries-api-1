@@ -12,7 +12,7 @@ const AppNavbar = ({value, setValue}) => {
     <div>
    < nav class="navbar">
   <div class="container pt-2">
-    <Link className="countryLink" to="/">
+    <Link className="countryLink" to="/rest-countries-api-1">
     <h3 className="light-txt">Where in the world?</h3>
    </Link>
     <div class="d-flex pt-2"  onClick={() => darkMode()}>

@@ -13,7 +13,7 @@ const CountryPage = ({ countryName, fetchCountryByBorder }) => {
     <>
       <div className="container">
         <div className="container float-start mb-5 mt-5">
-          <Link to="/">
+          <Link to="/rest-countries-api-1">
             <button className="btn country-btn">
               <IoArrowBackOutline /> <span className="">Back</span>
             </button>
