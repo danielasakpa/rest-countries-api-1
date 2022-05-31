@@ -8,7 +8,7 @@
       Live
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-SySqXmn49">
+    <a href="https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-db0s7GiDxz">
       Solution
     </a>
    <span> | </span>
@@ -65,4 +65,4 @@ This project, which makes use of react and api, taught me a lot. I am new to rea
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my <a href="">solution</a>. It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on my <a href="https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-db0s7GiDxz">solution</a>. It definitely helps to find new ways to code and find easier solutions!
