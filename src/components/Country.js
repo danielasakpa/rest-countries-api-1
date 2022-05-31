@@ -15,7 +15,7 @@ const Country = ({ con, fetchCountryPage}) => {
               height: "23rem",
               backgroundColor: "hsl(209, 23%, 22%)"
             }}>
-            <Card.Img variant="top" className="card-img" src={con.flags["png"]}/>
+            <Card.Img variant="top" className="card-img" alt="Country flag" src={con.flags["png"]}/>
             <Card.Body className="light-txt">
               <Card.Title><span>{con.name["common"]}</span></Card.Title>
               <Card.Text>
