@@ -21,7 +21,7 @@ const CountryPage = ({ countryName, fetchCountryByBorder }) => {
         </div>
         <div className="row d-flex flex-lg-row flex-column mt-5">
           <div className="col me-5">
-            <img className="countryPageImg" src={countryName.flags["png"]}  />
+            <img className="countryPageImg" alt="Country flag" src={countryName.flags["png"]}  />
           </div>
           <CountryPageContent countryName={countryName} fetchCountryByBorder={fetchCountryByBorder}/>
         </div>
