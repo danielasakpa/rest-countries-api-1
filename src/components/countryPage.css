@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+
+.countryPageTxt, .countryPageUl, .countryPageUl li, .border-txt {
+     font-family: 'Open Sans', sans-serif;
+}
+
+.countryPageTxt {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.countryPageImg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.countryPageUl {
+    list-style-type: none;
+    color: hsl(0, 0%, 100%);
+    padding: 0;
+    margin:0;
+}
+
+
+.countryPageUl li {
+   color: hsl(0, 0%, 100%);
+   font-weight: 600;
+}
+
+.countryPageUl li span {
+  font-weight: normal;
+}
+
+.country-btn, .border-btn {
+  background-color: hsl(209, 23%, 22%);
+   color: hsl(0, 0%, 100%)
+
+}
+
+.country-btn:hover,  .border-btn:hover {
+  color: hsl(0, 0%, 100%);
+  border: none;
+  box-shadow: none;
+}
+
+
+.border-txt {
+  font-size: 0.9rem;
+}
+
+.border-btn, .country-btn {
+  padding: 0.3em 1.9em;
+}

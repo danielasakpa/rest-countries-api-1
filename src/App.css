@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.navbar {
+  background-color: hsl(209, 23%, 22%);
+  color: hsl(0, 0%, 100%);
+}
+
+.react-switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 50px;
+  height: 22px;
+  background: grey;
+  border-radius: 100px;
+  position: relative;
+  transition: background-color .2s;
+}
+
+.react-switch-label .react-switch-button {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 25px;
+  height: 17px;
+  border-radius: 45px;
+  transition: 0.2s;
+  background: #fff;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label:active .react-switch-button {
+  width: 60px;
+}
+
+  .countryUl li, .light-txt, .countryPageTxt, .countryUl, .countryUl li span{
+   font-family: 'Open Sans', sans-serif;
+  }
+
+.light-txt {
+  cursor: pointer;
+}
+
+.light-txt, .countryPageTxt {
+  color: hsl(0, 0%, 100%);
+}
+
+.searchCon {
+  margin-top: 3em;
+}
+
+#dropdown-basic-button {
+  border: none;
+  box-shadow: none;
+}
+
+#dropdown-basic-button, #basic-addon1, .dropdown-item {
+  background-color: hsl(209, 23%, 22%);
+}
+
+.dropdown, #basic-addon1 {
+  border: none;
+  box-shadow: none;
+}
+
+.searchIcon {
+    color: hsl(0, 0%, 100%);
+}
+
+
+.sreachinput input[type=text] {
+  background-color: hsl(209, 23%, 22%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  box-shadow: none;
+}
+
+.countryCon {
+    margin-top: 7em;
+}
+
+.countryUl, .countryPageUl {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+.card-img {
+  width: 100%; 
+  height: 55%;
+}
+
+  .countryUl {
+      font-weight: 900;
+  }
+
+  .countryUl li {
+    font-weight: 600;
+  }
+  
+  .countryUl li span {
+    font-weight: normal;
+  }
+
+.countryLink {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 425px) {
+  .navbar, .light-txt, .navbar-icon, .dropdown  {
+    font-size: 0.9em;
+  }
+
+  .dropdown {
+    margin-top: 0.7em;
+  }
+
+  .countryCon {
+    margin-top: 4em;
+}
+
+
+}
+
+@media only screen and (min-width: 768px){
+  .sreachinput {
+  height: 0;
+  width: 26em !important;
+}
+}
